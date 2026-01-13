@@ -1,0 +1,14 @@
+<h2>{{ problem.title }}</h2>
+<h3>Detected Patterns</h3>
+<ul>
+{% for p in patterns %}
+<li><strong>{{ p.pattern }}</strong>: {{ p.description }}</li>
+{% endfor %}
+</ul>
+
+
+<p><strong>Brute Force:</strong> {{ problem.brute_force }}</p>
+<p><strong>Optimized:</strong> {{ problem.optimized }}</p>
+
+
+<a href="/">Analyze another</a>

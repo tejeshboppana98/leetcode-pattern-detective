@@ -1,0 +1,16 @@
+[
+{
+"id": 1,
+"title": "Longest Substring Without Repeating Characters",
+"constraints": { "n": 50000 },
+"brute_force": "Check all substrings",
+"optimized": "Sliding Window with Hash Set"
+},
+{
+"id": 2,
+"title": "Two Sum",
+"constraints": { "n": 10000 },
+"brute_force": "Nested loops",
+"optimized": "Hash Map"
+}
+]
