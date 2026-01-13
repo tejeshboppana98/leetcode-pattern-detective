@@ -43,4 +43,43 @@ The design is intentionally extensible to support additional patterns such as Bi
 ---
 
 ## Example Output
+Two Sum
+Detected Pattern: Hash Map
+Reason: Constant-time lookup of complements reduces time complexity from O(n²) to O(n)
+
+Brute Force: Nested loops
+Optimized: Hash Map
+
+
+---
+
+## Tech Stack
+
+- Backend: Python, Flask  
+- Frontend: HTML, CSS (Jinja templates)  
+- Core Logic: Rule-based pattern detection engine  
+- Data Storage: JSON  
+
+No database is required.
+
+---
+
+## Project Structure
+
+leetcode-pattern-detective/
+│
+├── app.py # Flask application and routes
+├── patterns.py # Pattern detection engine
+├── problem_data.json # LeetCode problem metadata
+├── requirements.txt
+│
+├── templates/
+│ ├── index.html # Problem selection UI
+│ └── result.html # Pattern detection results
+│
+├── static/
+│ └── style.css # Basic styling
+│
+└── README.md
+
 
